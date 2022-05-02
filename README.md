@@ -2,6 +2,13 @@
 
 Microservice template with separate Client and API served via an Nginx gateway.
 
+# Usage
+
+To utilise this template pull this repository, then cd into the API and Client and pull those subsequent repositories. You should then be able to build the containers using `docker-compose`.
+
+If you do not have `Docker` set up you can instal `Docker` [here](https://www.docker.com/).
+
+command: `docker-compose up --build -d`
 # Nginx Gateway
 
 Using Nginx as a gateway offers a few advantages. It allows us to hide our internal application network from the user via a reverse-proxy. This means,
