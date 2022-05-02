@@ -28,3 +28,8 @@ You can change the default setup via the `Nginx.conf` file located in `infrastru
 - [Snowpack](https://www.snowpack.dev/)
 - [React](https://reactjs.org/docs/getting-started.html)
 - [TypeScript](https://www.typescriptlang.org/docs/)
+
+# Dependencies
+
+- [Client-Service](https://github.com/PlanetDebug/React-Snowpack-Client-Service)
+- [API-Service](https://github.com/PlanetDebug/Node-API-Service)
